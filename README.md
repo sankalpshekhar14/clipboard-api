@@ -23,6 +23,7 @@ Sample Payload:
     "testKey": "testValue"
 }
 ```
+![](./post-request.png)
 
 To retrieve a note, make a GET request to ```http://localhost:8000/api/notes/{uri}``` where the uri is the 6-digit code of the note you want to retrieve.
 
@@ -31,3 +32,5 @@ Example:
 ```
 http://localhost:8000/api/notes/AbcDeF
 ```
+
+![](./get-request.png)
